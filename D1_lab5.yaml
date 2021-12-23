@@ -27,9 +27,9 @@ Parameters:
 Mappings:
   EC2TypeConfig:
     prod:
-      InstanceType: t2.small
+      InstanceType: t3.small
     dev:
-      InstanceType: t2.micro
+      InstanceType: t3.micro
 
 Resources:
   WebServerInstanceProfile:
