@@ -4,8 +4,8 @@ sudo yum update -y
 sudo yum install httpd -y
 sudo service httpd start
 sudo /bin/systemctl start httpd.service
-sudo echo "<html" > /var/www/html/index.html
-sudo echo "<body" >> /var/www/html/index.html
+sudo echo "<html>" > /var/www/html/index.html
+sudo echo "<body>" >> /var/www/html/index.html
 sudo echo "<img src=\"https://user117-bucket.s3.us-west-1.amazonaws.com/dog.jpg\">" >> /var/www/html/index.html
 sudo echo "</body>" >> /var/www/html/index.html
 sudo echo "</html>" >> /var/www/html/index.html
